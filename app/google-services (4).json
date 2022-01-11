@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "844433422053",
+    "project_id": "tocaraul-cbf02",
+    "storage_bucket": "tocaraul-cbf02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844433422053:android:7d8e331fe3e71543a8460c",
+        "android_client_info": {
+          "package_name": "com.sb.tocaraul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844433422053-ag15904fcg03lso766kimaohrcjer92o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sb.tocaraul",
+            "certificate_hash": "f46c1649a70778064a80308acba276ec99488fc9"
+          }
+        },
+        {
+          "client_id": "844433422053-ch6ttgsstttsjvjpq2kdher8eq9lmoop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVZeU2ZraK1MMydTq1MDrI2pUQQ5XhMXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844433422053-ch6ttgsstttsjvjpq2kdher8eq9lmoop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

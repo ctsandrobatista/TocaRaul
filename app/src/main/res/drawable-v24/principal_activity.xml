@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.sb.cantorsandrobatista.activity.PrincipalActivity">
+
+    <ImageButton
+        android:id="@+id/btnTikTok"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="32dp"
+        android:background="#000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnPalcoMp3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnInstagram"
+        app:srcCompat="@drawable/tiktok" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="340dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Olá, seja bem vindo ao aplicativo! \n Aqui você pode ficar  mais perto do \n Cantor Sandro Batista !"
+        android:textColor="#FBFAFA"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="abrirChat"
+        android:text="Pedir música!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:text="Agenda de shows!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/btnPalcoMp3"
+        app:layout_constraintEnd_toEndOf="@+id/btnWhatsApp"
+        app:layout_constraintStart_toStartOf="@+id/btnYoutube" />
+
+    <ImageView
+        android:id="@+id/btnWhatsApp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/whatsapp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnFacebook" />
+
+    <ImageButton
+        android:id="@+id/btnYoutube"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="32dp"
+        android:background="#000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnInstagram"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/youtube" />
+
+    <ImageView
+        android:id="@+id/btnInstagram"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnTikTok"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnYoutube"
+        app:srcCompat="@drawable/instagram" />
+
+    <ImageButton
+        android:id="@+id/btnPalcoMp3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="32dp"
+        android:background="#000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacebook"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnTikTok"
+        app:srcCompat="@drawable/palcomp3" />
+
+    <ImageButton
+        android:id="@+id/btnFacebook"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="32dp"
+        android:background="#000000"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnWhatsApp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnPalcoMp3"
+        app:srcCompat="@drawable/facebook" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="firebase_database_url" translatable="false">https://tocaraul-cbf02-default-rtdb.firebaseio.com/</string>
+    <string name="google_api_key" translatable="false">AIzaSyBVZeU2ZraK1MMydTq1MDrI2pUQQ5XhMXU</string>
+    <string name="google_app_id" translatable="false">1:844433422053:android:7d8e331fe3e71543a8460c</string>
+
+</resources>
